@@ -1,3 +1,7 @@
+---
+title: Tree View Navigation
+draft: false
+---
 The **tree view** is a powerful tool for managing and navigating a large number of related tabs. It is especially useful when you:
 
 - **Start with a main page** and open multiple related websites or tabs (e.g. search results).

@@ -1,5 +1,5 @@
 ---
-title: Local Search Engine
+title: Personal Local Search Engine
 draft: false
 ---
 **WebLibre** is designed with a **local-first philosophy**: whenever possible, your device handles search and retrieval, minimizing the need to contact remote services.

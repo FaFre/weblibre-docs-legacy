@@ -1,5 +1,5 @@
 ---
-title: Contextual identity
+title: Container Cookie Contexts
 draft: false
 ---
 **[[Container]]s** allow you to specify unique cookie contexts that are inherited by regular tabs opened within that container.
