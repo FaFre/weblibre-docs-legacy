@@ -2,4 +2,4 @@
 title: Bangs
 draft: false
 ---
-**Bangs** are shortcuts that let you search directly on other websites without the need of a third party search engine. Bangs redirect you straight to that site's search results. There are **thousands of bangs available** for popular websites and services.
+**Bangs** are powerful shortcuts that allow you to search directly on other websites, bypassing the need for a third-party search engine. By using a bang, you are taken straight to the search results page of your chosen site. There are **thousands of bangs available** for popular websites and services.

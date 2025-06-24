@@ -2,32 +2,61 @@
 title: Tor Proxy
 draft: false
 ---
-A **Tor proxy** is a privacy tool that routes internet traffic through **The Onion Router (Tor) network** to anonymize users' online activities. When you use Tor as a proxy, your internet requests are **encrypted and bounced through multiple relay servers** (nodes) around the world before reaching their destination.
+A **Tor proxy** is a privacy-enhancing tool that routes your internet traffic through the **Tor (The Onion Router) network**. By relaying your requests through multiple encrypted nodes (relays) worldwide, Tor helps **anonymize your online activities** and protect your identity.
 
-This multi-layered routing process makes it **extremely difficult to trace** the original source of the traffic, providing strong anonymity protection. Each relay only knows the previous and next step in the chain, not the complete path.
+## How Tor Proxy Works
 
-Tor proxy is commonly used to:
+- **Multi-layered Encryption:** Each request is encrypted multiple times and sent through a series of Tor relays. Each relay decrypts only enough information to know where to send the data next, but never the full path or the original source.
+- **Anonymity by Design:** This process makes it **extremely difficult to trace your internet activity** back to you. No single relay knows both your identity and your destination.
 
-- **Bypass censorship** and geographic restrictions
-- **Protect privacy** from surveillance
-- **Shield browsing habits** from ISPs and trackers
+## Common Uses of Tor Proxy
 
-Note that WebLibre implemented the Tor Service to improve users privacy, **not to provide complete anonymity**. It might be possible that your real IP/Identity is leaked in certain scenarios. It is also not possible to access .onion sites and the implementation is not scope of this project. For a hardened implementation use the specifically designed Tor Browser.
+- **Bypassing censorship** and geographic restrictions
+- **Protecting privacy** from surveillance and monitoring
+- **Shielding browsing habits** from ISPs and third-party trackers
 
-## Why Tor over VPN? 
+## Important Notes
 
-We recommend using Tor over VPNs for various reasons:
+- **WebLibre’s Tor Service** is designed to enhance privacy, **not to guarantee complete anonymity**. In certain scenarios, your real IP address or identity may still be exposed.
+- **.onion sites are not accessible** through this implementation.
+- For **maximum anonymity and access to .onion sites**, use the official [Tor Browser](https://www.torproject.org/download/).
 
-**True Anonymity**: Tor provides **stronger anonymity** through its multi-layered encryption and distributed network. VPNs only shift trust from your ISP to the VPN provider, who can still see your traffic.
+---
 
-**No Single Point of Failure**: Tor's **decentralized network** means no single entity controls or can compromise your entire connection, unlike VPNs where the provider has complete visibility.
+## How to Use the Tor Service
 
-**Free and Open Source**: Tor is **completely free** and its code is publicly auditable, while quality VPNs require paid subscriptions.
+### Initial Setup
 
-**No Trust Required**: You don't need to **trust any single company** with your data, as the distributed network design prevents any one node from seeing the complete picture.
+When you enable the Tor Proxy, an initial **bootstrapping process** occurs, typically taking 10–60 seconds. During this time, Tor:
 
-## How to use the Tor Service?
+- Performs cryptographic handshakes
+- Selects relays
+- Establishes secure tunnels
 
-Enabling Tor proxy works through the [[Container]] feature. Once set, all assigned container tabs are forced to connect through the Tor proxy to the internet. Note that this feature requires a separate [[Contextual identity]] to ensure the users privacy. Both normal and private tabs are supported.
+Once bootstrapped, browsing uses pre-built circuits, with new circuits created periodically for ongoing privacy.
 
-When you initially set up the Tor Proxy, the initial **bootstrapping process** typically takes up 10-60 seconds. This **bootstrapping process** involves cryptographic handshakes, relay selection, and establishing secure tunnels before any actual browsing can begin. Once established, subsequent browsing uses the pre-built circuits, though new circuits are periodically created. 
+### Using with [[Container]]
+
+- Enable Tor Proxy via the [[Container]] feature.
+- All tabs assigned to a Tor-enabled container will connect through the Tor network.
+- **Note:** This requires a separate [[Container Cookie Contexts]] for privacy. Only normal (non-private) tabs are supported.
+
+### Private Tabs
+
+- Due to limitations in the Gecko engine, fine-grained control (as with containers) is not available for private tabs.
+- You can choose to route **all or none** of your private tabs through the Tor Proxy.
+- The setting for private tab routing is available on the Proxy page.
+
+---
+
+## Why Choose Tor Over VPN?
+
+- **Stronger Anonymity:** Tor’s multi-layered encryption and distributed network provide **greater anonymity** than VPNs, which only shift trust from your ISP to the VPN provider.
+- **No Single Point of Failure:** Tor’s **decentralized architecture** means no single entity can compromise your entire connection, unlike VPNs where the provider can see all your traffic.
+- **Free and Open Source:** Tor is **completely free** and its source code is publicly available for audit. Quality VPNs typically require a paid subscription.
+- **No Central Trust Required:** With Tor, you do **not need to trust any single company** with your data. The distributed design ensures no single node has the full picture.
+
+---
+
+**For the highest level of anonymity and access to the full Tor network, always use the official Tor Browser.**
+

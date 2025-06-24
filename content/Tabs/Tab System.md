@@ -2,12 +2,39 @@
 title: Tab System
 draft: false
 ---
-Tabs are meant to remained open when a visit is planned in the future again. They are designed to be long living. They do not take up resources when in background and effectively deprecate bookmarks.
+**WebLibre tabs** are designed for longevity and efficient resource usage. **Tabs remain lightweight in the background**, ensuring minimal impact on system resources. With their persistent and searchable nature, tabs can effectively **replace traditional bookmarks**.
 
-When sorted into an container, tabs inherit the containers features:
-	- [[Contextual identity]] ("cookie jar")
-	- Network settings ([[Tor Proxy]])
+### Tab Containers
 
-When a tab is open it is also indexed and searchable through the [[Local Search Engine]].
+When you organize tabs into a **[[Container]]**, they automatically inherit the container’s features:
 
-There are two types of tabs: normal and private. Private tabs are getting erased upon every app restart, while normal tabs remain. Private tabs might have different privacy and add-on settings based on configured user preferences. It is possible to convert a private into a normal tab and vise versa but keep in mind that cookies are not transferred between the two tab modes.
+- **[[Container Cookie Contexts]]**: Each container uses a separate "cookie jar" for privacy and session isolation.
+- **Network Settings**: Containers can be configured with custom network settings, such as a **[[Tor Proxy]]**.
+
+### Search and Indexing
+
+**All open tabs are indexed** and can be quickly found using the integrated **[[Personal Local Search Engine]]**.
+
+### Navigation
+
+You can organize and visualize all your open tabs using the **[[Tree View Navigation]]**, making it easy to manage complex browsing sessions.
+
+### Tab Types
+
+There are **two types of tabs** in WebLibre:
+
+- **Regular Tabs**
+  - Persist across app restarts.
+  - Retain browsing history and session data.
+
+- **Private Tabs**
+  - Are erased every time the app restarts.
+  - May use different privacy and add-on settings, depending on your preferences.
+
+**Conversion:**  
+You can convert a tab between regular and private modes at any time. However, **cookies and session data are not transferred** between these modes.
+
+---
+
+**Note:** Private tabs are ideal for sensitive browsing, while regular tabs are best for long-term sessions and research.
+

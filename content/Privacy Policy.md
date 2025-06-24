@@ -1,7 +1,7 @@
 
 ## Responsible persons and contact persons
 
-WebLibre and related services are operated by [OnDevice UG (haftungsbeschränkt)](https://ondevice.eu), which is also the author of this statement. In this statement, “we” generally means OnDevice UG (haftungsbeschränkt. You can find our contact details in our [Imprint](https://ondevice.eu/impressum). 
+WebLibre and related services are operated by [OnDevice UG (haftungsbeschränkt)](https://ondevice.eu), which is also the author of this statement. In this statement, “we” generally means OnDevice UG (haftungsbeschränkt). You can find our contact details in our [Imprint](https://ondevice.eu/impressum). 
 
 ### For what purposes do we process your data and on which legal basis?
 

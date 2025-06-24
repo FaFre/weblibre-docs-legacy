@@ -2,6 +2,10 @@
 title: Biometric authentication
 draft: false
 ---
-[[Container]] can require biometric authentication to control access to its tabs. 
+**[[Container]]** supports biometric authentication to restrict access to its tabs. When enabled, users must authenticate using their device’s biometric methods (such as fingerprint or face recognition) before accessing the tabs within the container.
 
-Not that this is a pure UI-Feature. If you need real access control think about using Androids Work profile or multi user feature.
+> **Important:**  
+> This feature provides **UI-level access control only**. It does **not** secure data at the system level.  
+> For robust security or data isolation, consider using Android’s **Work Profile** or **multi-user** features.
+
+
