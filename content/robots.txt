@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /Imprint
+Disallow: /Legal/Imprint
+Disallow: /Legal/Legal-information
+Disallow: /Privacy-Policy
+Disallow: /Legal/Privacy-Policy
