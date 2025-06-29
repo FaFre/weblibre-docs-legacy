@@ -4,42 +4,52 @@ unlisted: true
 alias:
     - "Privacy-Policy"
 ---
-## Responsible persons and contact persons
+## Responsible Entity and Contact
 
-WebLibre and related services are operated by [OnDevice UG (haftungsbeschränkt)](https://ondevice.eu), which is also the author of this statement. In this statement, “we” generally means OnDevice UG (haftungsbeschränkt). You can find our contact details in our [[Legal information]]. 
+**WebLibre** and its related services are operated by [OnDevice UG (haftungsbeschränkt)](https://ondevice.eu), which is also the author of this privacy statement. In this document, “we” refers to OnDevice UG (haftungsbeschränkt). For contact details, please refer to our [[Legal information]] page.
 
-### For what purposes do we process your data and on which legal basis?
+## Purposes and Legal Basis for Data Processing
 
-We process your personal data for several purposes in pursuance with the rules laid down in the General Data Protection Regulation (GDPR).  
-The processing of your personal data must be carried out on basis of one of the following legal grounds: 
+We process your personal data in accordance with the General Data Protection Regulation (GDPR) for the following purposes:
 
-- You have given your permission (Art. 6 par. 1, subpar. 1 lit a GDPR);
-- The processing is necessary for the performance of a contract with you or to carry out precontractual duties resulting from your request (Art. 6 par. 1, subpar. 1 lit b GDPR);
-- The processing is necessary to safeguard the **legitimate interests of bluesource** or a third party, insofar as your interests or fundamental rights and freedoms that require data protection, do not prevail, in particular if the data concerns a child (Art. 6 par. 1 subpar. 1 lit f GDPR).
+- **With your consent** (Art. 6(1)(a) GDPR)
+- **For the performance of a contract** or to take steps at your request prior to entering into a contract (Art. 6(1)(b) GDPR)
+- **To protect our legitimate interests** or those of a third party, provided your interests or fundamental rights and freedoms do not override these (Art. 6(1)(f) GDPR)
 
 ## Principles
 
- **WebLibres goal is to gain back peoples privacy on the web.**
+**WebLibre’s mission is to restore privacy for users on the web.**
 
-We do not not have any tracking or other monitoring technologies in place that transmit data to us. All data we collect is stored on your local device and not shared over the internet with us or anyone else (except the data you share with third party websites while browsing the web).
+- **No tracking:** We do not use tracking or monitoring technologies that transmit your data to us.
+- **Local data storage:** All data collected by WebLibre is stored locally on your device and is not shared with us or any third party, except when you intentionally share data with third-party websites while browsing.
 
 ## Data Collection and Use
 
-Since WebLibre is built on some components of [Mozilla's Gecko Engine](https://en.wikipedia.org/wiki/Gecko_(software)) and [Mozilla Android Components](https://mozac.org/). Please consult their privacy policy as well [Mozilla Privacy Policy](https://www.mozilla.org/en-US/privacy/)
+WebLibre is built using components from [Mozilla's Gecko Engine](https://en.wikipedia.org/wiki/Gecko_(software)) and [Mozilla Android Components](https://mozac.org/). Please review the [Mozilla Privacy Policy](https://www.mozilla.org/en-US/privacy/) for information on how these components handle your data.
 
-WebLibre also offers a built in Tor Proxy which connects to the Tor Network, whose privacy policy can be obtained [here](https://support.torproject.org/tbb/privacy-policy/)
+WebLibre also offers an integrated Tor Proxy, which connects to the Tor Network. For further details, please consult the [Tor Project Privacy Policy](https://support.torproject.org/tbb/privacy-policy/).
 
-In case you obtained this App through the Google Play Store, learn more about Privacy and the Google Play Services at [https://www.google.com/policies/privacy/](https://www.google.com/policies/privacy/).
+When opt-in during onboarding, Weblibre will provide you with the uBlock Origin blocker [uBlock Privacy Policy](https://github.com/gorhill/uBlock/wiki/Privacy-policy)
 
-### Location
-If you wish to share your location with third party websites e.g. map applications, we offer an interface to do so via Mozilla Android Components.
+If you obtained this app via the Google Play Store, please refer to [Google’s Privacy Policy](https://www.google.com/policies/privacy/) for information about Google Play Services.
 
-## Files and Photos
-If you wish to do so, we will collect files you chose and upload them to third party websites.
+### Location Data
 
-## IP-Address
-Your IP-Address is used whenever interacting with the internet.
+If you choose to share your location with third-party websites (for example, map applications), WebLibre provides an interface through Mozilla Android Components to facilitate this. Location data is only shared if you explicitly allow it.
+
+### Files and Photos
+
+If you choose to upload files or photos to third-party websites, only the files you select will be accessed and transmitted as part of that process. WebLibre does not access or transmit files without your explicit action.
+
+### IP Address
+
+Your IP address is used whenever you interact with the internet. This is a standard requirement for online connectivity and is not specifically collected or stored by WebLibre.
 
 ## Security
 
-We value your trust in using WebLibre to handle your personal data, thus we are striving to protect it using state-of-the-art security measures. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+We are committed to protecting your personal data and use industry-standard security measures to safeguard it. However, please note that no method of internet transmission or electronic storage is completely secure, and we cannot guarantee absolute security.
+
+---
+
+**If you have any questions or concerns about this privacy policy or your data, please contact us via the details provided in our [[Legal information]] page.**
+
