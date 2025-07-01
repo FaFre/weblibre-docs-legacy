@@ -40,6 +40,10 @@ Once bootstrapped, browsing uses pre-built circuits, with new circuits created p
 - All tabs assigned to a Tor-enabled container will connect through the Tor network.
 - **Note:** This requires a separate [[Container Cookie Contexts]] for privacy. Only normal (non-private) tabs are supported.
 
+#### Video
+
+<div style="position: relative; padding-top: 112.235%;"><iframe title="WebLibre - Container with Tor" width="100%" height="100%" src="https://peertube.ondevice.eu/videos/embed/nqVSFNRDyn4abXHer6wR3e" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
+
 ### Private Tabs
 
 - Due to limitations in the Gecko engine, fine-grained control (as with containers) is not available for private tabs.

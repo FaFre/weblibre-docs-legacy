@@ -25,3 +25,8 @@ With the tree view, **all your tabs are organized hierarchically**, reflecting t
 - **Efficient navigation** through complex browsing sessions.
 - **Clear overview** of how your tabs are related.
 - **Quick access** to any page in your exploration tree.
+
+## Video
+
+<div style="position: relative; padding-top: 112.235%;"><iframe title="WebLibre - Container with Tor" width="100%" height="100%" src="https://peertube.ondevice.eu/videos/embed/oHaXf4yQu12FtZ24Nm7vW8" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
+

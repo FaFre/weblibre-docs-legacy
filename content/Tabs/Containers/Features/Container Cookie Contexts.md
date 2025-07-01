@@ -15,3 +15,6 @@ When this feature is enabled, **all regular tabs within the same container share
 
 This setup enhances privacy and allows for multiple, independent browsing sessions within a single browser profile.
 
+## Video
+
+<div style="position: relative; padding-top: 112.235%;"><iframe title="WebLibre - Container with Tor" width="100%" height="100%" src="https://peertube.ondevice.eu/videos/embed/uGEfPt8dr9XRt1HzMy2tx2" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
