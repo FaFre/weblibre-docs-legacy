@@ -18,8 +18,7 @@ A **Tor proxy** is a privacy-enhancing tool that routes your internet traffic th
 ## Important Notes
 
 - **WebLibre’s Tor Service** is designed to enhance privacy, **not to guarantee complete anonymity**. In certain scenarios, your real IP address or identity may still be exposed.
-- **.onion sites are not accessible** through this implementation.
-- For **maximum anonymity and access to .onion sites**, use the official [Tor Browser](https://www.torproject.org/download/).
+- For **maximum anonymity*, use the official [Tor Browser](https://www.torproject.org/download/).
 
 ---
 

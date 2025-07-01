@@ -22,7 +22,7 @@ Commercial Register: HRB 800041
 Registration court: Amtsgericht Stuttgart
 
 **VAT-ID / USt-IdNr**  
-Pending
+DE454942755
 
 ## Liability Note
 
