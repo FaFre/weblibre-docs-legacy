@@ -8,6 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
+      "GitHub": "https://github.com/FaFre/WebLibre",
       "Imprint": "Imprint",
       "Privacy Policy": "Privacy-Policy",
     },
