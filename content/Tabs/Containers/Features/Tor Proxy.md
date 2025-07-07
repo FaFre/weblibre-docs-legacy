@@ -2,9 +2,11 @@
 title: Tor Proxy
 draft: false
 ---
-A **Tor proxy** is a privacy-enhancing tool that routes your internet traffic through the **Tor (The Onion Router) network**. By relaying your requests through multiple encrypted nodes (relays) worldwide, Tor helps **anonymize your online activities** and protect your identity.
+The **Tor™ software** is a privacy-enhancing tool that routes your internet traffic through the **Tor™ (The Onion Router) network**. By relaying your requests through multiple encrypted nodes (relays) worldwide, Tor helps **anonymize your online activities** and protect your identity.
 
-## How Tor Proxy Works
+Tor software is a trademark of The Tor Project; all rights reserved.
+
+## How the Tor Proxy Works
 
 - **Multi-layered Encryption:** Each request is encrypted multiple times and sent through a series of Tor relays. Each relay decrypts only enough information to know where to send the data next, but never the full path or the original source.
 - **Anonymity by Design:** This process makes it **extremely difficult to trace your internet activity** back to you. No single relay knows both your identity and your destination.
@@ -17,8 +19,8 @@ A **Tor proxy** is a privacy-enhancing tool that routes your internet traffic th
 
 ## Important Notes
 
-- **WebLibre’s Tor Service** is designed to enhance privacy, **not to guarantee complete anonymity**. In certain scenarios, your real IP address or identity may still be exposed.
-- For **maximum anonymity*, use the official [Tor Browser](https://www.torproject.org/download/).
+- **WebLibre’s Tor Service implementation**, providing third party access on the Tor network, is designed to enhance privacy.
+- If you require a hardened browser for the use of Tor, please check out the official [Tor Browser](https://www.torproject.org/download/).
 
 ---
 
