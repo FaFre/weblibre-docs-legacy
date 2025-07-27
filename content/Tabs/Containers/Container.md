@@ -15,6 +15,10 @@ draft: false
 - **[[Biometric Authentication]]**  
   You can require biometric authentication (such as fingerprint or facial recognition) to access tabs within a container, adding an extra layer of security.
 
+### [[On-Device AI]]
+
+WebLibre can use a local AI model to read your open tab titles and suggest container tabs and names. Everything happens on your device. You can control this behavior anytime through settings.
+
 ---
 
 **Note:**  

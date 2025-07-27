@@ -8,7 +8,7 @@ draft: false
 
 The browser acts as your own private search engine, indexing and searching data from multiple sources:
 
-- **[[Tab System]]**  
+- **[[Tab Management]]**  
   Search across all open tabs by website title, address, and full page content—**with no size limits**.
 
 - **[[Web Feeds]]**  
