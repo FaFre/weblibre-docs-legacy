@@ -63,5 +63,22 @@ Once bootstrapped, browsing uses pre-built circuits, with new circuits created p
 
 ---
 
+## Why Access to .onion Domains Is Disabled
+
+Accessing ```.onion``` domains—websites only reachable via the Tor network—is currently **disabled** in this service. This decision is made to **protect users from fingerprinting and privacy risks** that arise when accessing hidden services outside of the official Tor Browser environment.
+
+### Fingerprinting Risks
+
+- **Browser Fingerprinting:** Accessing ```.onion``` domains through non-Tor browsers or proxy implementations can expose unique browser characteristics (such as fonts, plugins, or screen size) to ```.onion``` sites. These details can be used to **identify and track users**, undermining Tor’s anonymity guarantees.
+- **Network Fingerprinting:** Some proxy setups may leak information about your network or device configuration, making it easier for adversaries to correlate your activity across sessions or services.
+
+### Why This Matters
+
+- **Tor Browser is Hardened:** The official [Tor Browser](https://www.torproject.org/download/) is specifically designed to **minimize fingerprinting** by standardizing browser behavior and blocking many tracking techniques.
+- **Proxy Limitations:** Third-party Tor proxies and browser integrations do **not provide the same level of protection** as the Tor Browser. They may inadvertently leak identifying information, especially when accessing ```.onion``` domains.
+- **User Safety:** Disabling ```.onion``` access helps ensure that users are **not exposed to advanced tracking or deanonymization attacks** that can occur outside the official Tor Browser.
+
+---
+
 **For the highest level of anonymity and access to the full Tor network, always use the official Tor Browser.**
 
